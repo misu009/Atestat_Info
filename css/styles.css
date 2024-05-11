@@ -1,101 +1,94 @@
 body {
-  
-  overflow-y: hidden; */
-  overflow-x: hidden; 
+  overflow-y: hidden;
+  overflow-x: hidden;
   font-family: "Ubuntu Sans", sans-serif;
   font-weight: 700;
-  height: 100vw;
+  height: 100vh;
   width: 100vw;
-  background-color:#B5C18E;
+  background-color: #b5c18e;
 }
 
-.navbar
-{
+.navbar {
   background-color: #cabaa5 !important;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
   border-radius: 15px;
-  margin-bottom:  5%;
-  -webkit-box-shadow: 3px 2px 31px -7px rgba(0,0,0,0.53);
--moz-box-shadow: 3px 2px 31px -7px rgba(0,0,0,0.53);
-box-shadow: 3px 2px 31px -7px rgba(0,0,0,0.53);
+  margin-bottom: 5%;
+  -webkit-box-shadow: 3px 2px 31px -7px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 3px 2px 31px -7px rgba(0, 0, 0, 0.53);
+  box-shadow: 3px 2px 31px -7px rgba(0, 0, 0, 0.53);
 }
 
-.searchBar
-{
+.searchBar {
   border-color: #000000;
   color: rgb(99, 99, 99);
   font-weight: 600;
 }
 
-.searchButon
-{
+.searchButon {
   background-color: white;
   color: black;
   font-weight: 500;
 }
 
-.carousel
-{
+.carousel {
   background-color: rgb(255, 255, 255);
   height: 400px;
   width: 400px;
   margin-left: auto;
   margin-right: auto;
-  -webkit-box-shadow: 3px 2px 31px -5px rgba(0,0,0,0.2);
--moz-box-shadow: 3px 2px 31px -5px rgba(0,0,0,0.2);
-box-shadow: 3px 2px 31px -5px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 3px 2px 31px -5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 3px 2px 31px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 2px 31px -5px rgba(0, 0, 0, 0.2);
 }
-.carouselItems
-{
+.carouselItems {
   height: 400px;
-  
 }
 
-::placeholder
-{
+::placeholder {
   color: black;
   font-weight: 800;
 }
-footer{
-
+footer {
   padding-top: 20px;
-  padding-bottom: 20px;;
-  background-color: #cabaa5 ;
+  padding-bottom: 20px;
+  background-color: #cabaa5;
   text-align: center;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  -webkit-box-shadow: -1px -25px 37px -2px rgba(0,0,0,0.09);
--moz-box-shadow: -1px -25px 37px -2px rgba(0,0,0,0.09);
-box-shadow: -1px -25px 37px -2px rgba(0,0,0,0.09);
+  -webkit-box-shadow: -1px -25px 37px -2px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: -1px -25px 37px -2px rgba(0, 0, 0, 0.09);
+  box-shadow: -1px -25px 37px -2px rgba(0, 0, 0, 0.09);
 }
-hr
-{
+hr {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height: 3px;
   background-color: black;
 }
-a
-{
+a {
   text-decoration: none;
-  color:black ;
-  
+  color: black;
 }
-a:link:active, a:visited:active {
+a:link:active,
+a:visited:active {
   color: #676767;
 }
 
-.fa-brands
-{
+.fa-brands {
   margin-left: 5px;
   margin-right: 5px;
- margin-top: 10px;
- margin-bottom: 10px;;
-  
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+::placeholder {
+  font-weight: 300;
+  color: grey;
+  font-style: italic;
 }
