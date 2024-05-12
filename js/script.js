@@ -8,7 +8,7 @@ const countdownInterval = setInterval(() => {
 
     if (count < 0) {
     clearInterval(countdownInterval);
-    window.location.href = "/html/index.html";
+    window.location.href = "../html/index.html";
     }
 }, 1000);
 }

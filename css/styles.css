@@ -92,3 +92,30 @@ a:visited:active {
   color: grey;
   font-style: italic;
 }
+
+textarea
+{
+  background-color: #e8ddd0;
+  border-radius: 15px;;
+}
+input
+{
+  background-color: #e8ddd0;
+  border-style: solid;
+  border-radius: 8px;
+}
+.send{
+  width: 10%; border-radius: 10px; border-style: solid; border-width: 2px;
+  border-color:black;
+  font-weight: 600;
+}
+.poze
+{
+  margin-top: 5%;
+}
+.profilepic
+{
+  
+  width: 200px;
+  border-radius: 100%;
+}
